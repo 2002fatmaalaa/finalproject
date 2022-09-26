@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+}
+:root{
+    --main-color:orangered;
+    --dark-gray: #2f3640;
+    --soft-gray:#718093;
+    --mid-gray:#353b48;
+    --baby-blue:#2e86de;
+    --white: #ecf0f1;
+    --font-size:16px;
+}
+/* ============================================  start nav ============================================== */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    border-top: 3px solid silver;
+ 
+}
+nav img{
+    height: 5vh;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--soft gray);
+    transition: all 0.5s ease-in-out;
+    
+}
+nav ul a:hover{
+    color: var(--dark-gray);
+    font-weight: bold}
+    header{
+        background-image: url(img.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 70vh;
+
+        position: relative;
+    }
+    
+ /* ============================================  start header ============================================== */
+    header .caption{
+        /* background-color: var(dark-gray); */
+        background-color: rgba(47,54,64, 0.5);
+        width: 25%;
+        padding: 3%;
+    border-left: 3px solid antiquewhite;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+    
+    header h1{
+        color: wheat;
+        font-size: calc(var(--font-size)+25px);
+        font-weight: lighter;
+
+    }
+    header p{
+        color: wheat;
+        font-size: calc(var(--font-size)+10px);
+        padding-top: 2%;
+        line-height: calc(var(--font-size)+15px);
+        
+    }
+    /* ============================================  start after header ============================================== */
+.after-head{
+    background-color: antiquewhite;
+    padding: 3%;
+    text-align: center;
+    font-size: calc(var(--font-size) + 7px);
+    line-height: calc(var(--font-size) + 20px);
+}
+.after-head p{
+    width: 70%;
+    margin: auto;
+}
+/* ============================================  start offers ============================================== */
+.offers{
+    width: 70%;
+    margin:5% auto;
+    color: var(--soft-gray)antiquewhite;
+}
+ .offers p{
+    color:var(--soft-gray);
+    line-height: calc(var(--font-size) + 15px);
+    margin-left: 1%;
+ }
+ .offers h1{
+text-align: center;
+font-size: calc(var(--font-size) + 30px);
+font-weight: lighter;
+margin-bottom: 3%;
+}
+.offers .offer div{
+    width: 30%;
+    margin-top: 5%;
+    
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+
+   /* ============================================  start main ============================================== */
+    
+   .main{
+    width: 100%;
+    margin:5% auto;
+    color: var(--soft-gray)antiquewhite;
+    background-color: beige;
+}
+.main p{
+    color:var(--soft-gray);
+    line-height: calc(var(--font-size) + 15px);
+ }
+ .main h1{
+    text-align: center;
+    font-size: calc(var(--font-size) + 27px);
+    font-weight: lighter;
+    margin-bottom: 3%;
+    }
+    .main .bonus {
+        width: 45%;
+        margin-top: 2%;
+    margin-left: 30%;
+    }
+    
+    .bonus{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 25%;
+    }
+   
+    .after-all{
+        background-color: azure;
+        padding: 3%;
+        text-align: center;
+        font-size: calc(var(--font-size) + 7px);
+        line-height: calc(var(--font-size) + 20px);
+        
+    
+    }
+     .after-all p{
+        width: 70%;
+        margin: auto;
+    } 
+    /* nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1%;
+        background-color: antiquewhite;
+        
+     
+    }
+    nav img{
+        height: 5vh;
+        
+    }  */
+    .after-section{
+        background-color: antiquewhite;
+        padding: 3%;
+        text-align: center;
+        font-size: calc(var(--font-size) + 7px);
+        line-height: calc(var(--font-size) + 10px);
+        
+    }
+    .after-section p{
+        width: 70%;
+        margin: auto;
+    }
+    .genr{
+        
+            display: flex;
+            justify-content: space-evenly;
+            
+            border-top: 3px solid silver;
+        background-color:lightgray;}
+         
+        
+        .genr img{
+            height: 5vh;
+            
+        }
+        
+
+    

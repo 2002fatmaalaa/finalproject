@@ -1,0 +1,373 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 65%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .logo{
+  width: 125px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+    display: inline-block;
+    
+   
+}
+
+  .navbar ul li a:hover{
+    width: 100%;
+    transition: width;
+    border-bottom:3px solid blue;
+  } */
+  /* ============================= start header media query ===============================*/
+/* @media (max-width: 600px){
+    
+    
+    nav{
+        justify-content: space-between;
+    }
+    nav .logo{
+        height: 5vh;
+    }
+   
+}
+
+.banner{
+    display: flex;
+    margin-top: 80px;
+    
+}
+.left-column, .right-column{
+    flex-basis: 50%;
+   
+   
+}
+.right-column img{
+    width: 69%;
+    margin-top: 2px;
+    margin-left: 130px;
+}
+.left-column{
+    margin-top: 70px;
+    margin-left: 50px;
+   
+}
+.left-column h1{
+    font-size: 75px;
+}
+span{
+    color: blue;
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    border: 5px solid transparent;
+    padding: 10px 18px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: gray;
+    border:2px solid blue
+}
+.sevice{
+width: 100%;
+padding: 100px 0px;
+justify-content: center;
+display: flex;
+flex-direction: column;
+
+}
+.title h1{
+    color: black;
+    font-size: 55px;
+    width: 1130xp;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: 400;
+}
+.title p{
+    color: black;
+    font-size: 20px;
+    width: 1100xp;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1500px;
+    background-color: beige;
+    margin-top: 30px;
+    width: 100%;
+    
+   
+}
+.card{
+    width: 300px;
+     padding: 15px 25px; 
+    background-color: white;
+    border-radius: 22px;
+    margin: 25px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    overflow: hidden; 
+    min-height: 240;
+
+
+}
+.card i{
+    font-size: 52px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: blue;
+}
+@media(max-width:995px){
+    .sevice{
+        padding: 100px 0px;
+    }
+    .title h1{
+        font-size: 55px;
+        font-weight: 400;
+    }
+    .box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px;
+    }
+}
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.prag p{
+    color: dark gray;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+
+.card .button:hover{
+    background-color: gray;
+    border:2px solid blue
+}
+.card .but{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+    display: inline-block;
+    
+   
+}
+
+  .card .but:hover{
+    width: 100%;
+    transition: width;
+    border-bottom:3px solid blue;
+  }
+.container{
+    width: 100%;
+    padding: 100px 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    
+    }
+    .container h1{
+        color: black;
+        font-size: 55px;
+        width: 1130xp;
+        margin: 30px auto;
+        text-align: center;
+        font-weight: 400;
+    }
+    .container p{
+        color: black;
+        font-size: 20px;
+        width: 1100xp;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .content-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+       background-color: beige;
+       
+
+    }
+    .content-section .card{
+        flex: 1;
+        margin: 50px 50px;
+        box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+        background-color: white;
+        
+    }
+    .content-section .card img{
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width:768){
+        .content-section{
+            flex-direction: column;
+        }
+
+    }
+    .butt{
+        background-color: blue;
+        color: aliceblue;
+        font-size: 12px;
+        text-decoration: none;
+        border: 1px solid transparent;
+        padding: 5px 10px;
+        border-radius: 7px;
+        margin-left: 782px;
+    
+        
+        
+    }
+    .butt:hover{
+        background-color: gray;
+        border:1px solid blue}
+   
+
+        .country{
+            width: 100%;
+            padding: 100px 0px;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            background-color: beige;
+            
+            }
+            .country h2{
+                color: black;
+                font-size: 55px;
+                width: 1130xp;
+                margin: 30px auto;
+                text-align: center;
+                font-weight: 400;
+            }
+           .last{
+            
+            min-height: 100vh;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 90px;
+           }
+           .cards{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            text-align: center;
+           }
+           .cards .card-body{
+            flex: 1;
+            margin: 30px 30px;
+            box-shadow: 0px,2px,8px,0px rgba(0,0,0,0.2);
+           }
+           .cards .card-body img{
+            width: 100%;
+            height: auto;
+
+           }
+           @media screen and(max-width:768px) {
+            .cards{
+                flex-direction: column;
+
+            }
+           }
+           .final{ */
+            
+            /* min-height: 80vh; */
+            /* background-color: beige;
+            display: flex;
+            justify-content: center;
+           
+           }
+           .final h3{
+            margin-right: 500px;
+            font-size: 25px;
+            
+            
+           }
+           @media screen and (max-width:768){
+            .final h3{
+                flex-direction: column;
+                font-size: 25px;
+            }
+            .lgo img{
+                
+             height: 10vh;
+            } 
+            
+        }
+        .lst{
+            background-color: lightsteelblue;
+            height: 300px;
+            width: 100%;
+        }
+        .lgo img{ */
+            /* height: 4vh;
+         */
+         /* width: 125px;
+         margin-left: 100px;
+         margin-top: 50px;
+        } 
+        .first h4{
+            margin-left: 50px;
+            margin-top: 30px;
+            color: white;
+            font-size: 18px;
+
+        }
+        .second h4{
+            margin-left: 50px;
+            margin-top: 30px;
+            color: white;
+            font-size: 18px;
+
+        }
+        .third h4{
+            margin-left: 50px;
+            margin-top: 40px;
+            color: white;
+            font-size: 18px;
+
+        }
+    
+            
+            .icon{
+                position: absolute;
+                color: blue;
+                margin-left: 450px;
+            }  */
+            

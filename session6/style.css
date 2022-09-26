@@ -1,0 +1,49 @@
+/* body{
+    height: 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    position: relative;
+    background-color: antiquewhite;
+    height: 70vh;
+}
+div{
+   position: absolute; 
+   width: 500px;
+   height: 200px;
+   background-color:lightgray;
+   font-size: 50px;
+   top: 50%;
+   left: 50%;
+   /* margin-left: -100px;
+   margin-top: -50px; */
+   /* transform: translate(-50%,-50%); */
+/* div{
+    background-color: antiquewhite;
+    height: 30vh;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation:change-color;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+}
+@keyframes change-color{
+    from{background-color: antiquewhite;}
+    to{background-color: lightcyan;}
+} */
+/* mediaguery */
+/* div{
+    background-color: blanchedalmond;
+    height: 50vh;
+    width: 2000px;
+
+}
+@media (max-width:600px){
+div{
+    height: 50vh;
+} */
+
+}

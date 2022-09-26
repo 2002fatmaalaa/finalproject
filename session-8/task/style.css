@@ -1,0 +1,156 @@
+header nav .menu a{
+    color: black !important;
+}
+ header .caption h1 span{
+    color: blue !important;
+}
+ header .caption h1{
+    font-size: 70px;
+     font-weight: bold; 
+    
+}
+header .caption img{
+    margin-left: 590px;
+    margin-bottom: 100px;
+    float: right;
+}
+header .caption h1{
+    margin-top: 50px;
+} 
+
+.container{
+    margin: 25px auto;
+    padding: 8px;
+}
+img{
+    float: right;
+    
+}
+header .container h1 span{
+    color: blue !important;
+}
+header .container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+header .container p{
+    font-size: 25px;
+    
+}
+.caption p {
+    width: 40%;
+    
+}
+.caption h1{
+    font-size: 40px;
+    text-align: center;
+}
+/* ==========================================ourservices================================================== */
+.section-head{
+    margin-bottom: 80px;
+}
+.section-head h1{
+    position: relative;
+    line-height: 1;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 500;
+    text-transform: none;
+    padding: 0;
+}
+.section-head p{
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.icon{
+    background-color:rgb(251, 251, 245);
+     text-align: center; 
+    padding: 12px 12px;
+    box-shadow: 0 0 25px rgba(0,0, 0, 0.04);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    /* border: 5px solid rgba(0,0, 0, 0.04); */
+    transition: all 0.5s ease-in-out;
+}
+.icon:hover{
+    background-color: gray
+
+    
+}
+.icon:hover .icon,.icon:hover span .icon{
+    background-color: papayawhip;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+
+} 
+.icon:hover h3, .icon:hover p{
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+.icon .icon{
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: gray;
+    width: 90px;
+    line-height: 96px;
+    border-radius: 70px; 
+}
+.icon .feature-box-col-one{
+    background-color: azure;
+    color: blue;
+}
+.icon .feature-box-col-two{
+    background-color: lavenderblush;
+    color: blue;
+}
+.icon .feature-box-col-three{
+    background-color: antiquewhite;
+    color: blue;
+}
+.icon .feature-box-col-four{
+    background-color: paleturquoise;
+    color: blue;
+}
+.icon .feature-box-col-five{
+    background-color:lightblue;
+    color:blue;
+}
+.icon p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.icon h3{
+    margin-bottom: 22px;
+}
+/* ==================================news======================================== */
+
+.father{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+.box-shadow{
+    box-shadow: 0px 2px 1px rgba(0,0, 0, 0.1);
+}
+.card p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.dream p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.card{
+    border-radius: 28px;
+    
+}
+.items{
+    text-decoration: none;
+}
+.foter{
+    background-color: beige;
+}
